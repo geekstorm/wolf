@@ -1,0 +1,14 @@
+
+Create a NEW REPOSITORY on the command line
+
+echo "# wolf" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/gprateek21/wolf.git
+git push -u origin master
+
+Push an EXISTING REPOSITORY from the command line
+
+git remote add origin https://github.com/gprateek21/wolf.git
+git push -u origin master
